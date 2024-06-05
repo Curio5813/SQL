@@ -3,6 +3,7 @@
 --- www.urionlinejudge.com.br
 --- Problem 2621
 
+/*
 CREATE TABLE providers (
   id numeric PRIMARY KEY,
   name varchar(255),
@@ -35,7 +36,9 @@ VALUES
   (3,	'Disney Wardrobe',	400,	829.50,	4),
   (4,	'Executive Chair',	17,	9.90,	3),
   (5,	'Solar Panel',	30,	3000.25,	4);
-  
-  
-/*  Execute this query to drop the tables */
--- DROP TABLE products, providers; -- 
+*/
+
+SELECT p.name FROM products AS p, providers AS prov
+	WHERE p.id_providers = prov.id AND prov.name LIKE 'P%' AND p.amount BETWEEN 10 AND 20;  
+
+
