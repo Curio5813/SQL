@@ -3,11 +3,13 @@
 --- www.urionlinejudge.com.br
 --- Problem 2745
 
+/*
 CREATE TABLE people (
   id INTEGER PRIMARY KEY,
   name CHARACTER VARYING (255),
   salary NUMERIC
 );
+
 
 
 INSERT INTO people(id, name, salary)
@@ -18,7 +20,6 @@ VALUES
       (4, 'Nicholas J. Conn', 8011),
       (5, 'Karol A. Morales', 2508),
       (6, 'Lolita S. Graves', 8709);
-
+*/
   
-  /*  Execute this query to drop the tables */
-  -- DROP TABLE people; --
+SELECT p.name, ROUND(p.salary * 0.10, 2) AS tax FROM people AS p WHERE p.salary > 3000;
