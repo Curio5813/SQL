@@ -3,6 +3,7 @@
 --- www.urionlinejudge.com.br
 --- Problem 2605
 
+/*
 CREATE TABLE categories (
   id numeric PRIMARY KEY,
   name varchar
@@ -56,6 +57,9 @@ VALUES
   (4,	'Computer desk',	350,	320.50,	4,	6),
   (5,	'Chair',	3000,	210.64,	3,	6),
   (6,	'Single bed',	750,	460,	1,	2);
-  
-  /*  Execute this query to drop the tables */
-  -- DROP TABLE products, providers, categories; --
+*/
+
+
+SELECT prod.name, prov.name FROM products AS prod, providers AS prov, categories 
+	AS cat WHERE prod.id_providers = prov.id AND prod.id_categories = cat.id 
+	AND cat.id = 6;
