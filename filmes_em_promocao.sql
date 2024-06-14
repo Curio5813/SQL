@@ -31,7 +31,7 @@ VALUES
   (3,	'White Duck',	5),
   (4,	'Breaking Barriers',	4),
   (5,	'The Two Hours',	2);
-  
+
 SELECT m.id, m.name FROM movies AS m, prices AS p WHERE m.id_prices = p.id AND p.value < 2.00;
 
 

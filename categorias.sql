@@ -3,6 +3,7 @@
 --- www.urionlinejudge.com.br
 --- Problem 2606
 
+/*
 CREATE TABLE categories (
   id numeric PRIMARY KEY,
   name varchar
@@ -38,5 +39,6 @@ VALUES
   (4,	'Computer desk',	350,	320.50,	6),
   (5,	'Chair',	'3000',	'210.64',	9),	
   (6,	'Home alarm',	750,	460,	4);
+ */
   
 SELECT p.id, p.name FROM products AS p, categories AS c WHERE p.id_categories = c.id AND c.name LIKE 'super%';

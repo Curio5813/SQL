@@ -3,7 +3,7 @@
 --- www.urionlinejudge.com.br
 --- Problem 2623
 
-/*
+
 CREATE TABLE categories (
   id numeric PRIMARY KEY,
   name varchar(255)
@@ -35,9 +35,9 @@ VALUES
   (3,	'Disney Wardrobe',	400,	829.50,	4),
   (4,	'Blue Toaster',	20,	9.90,	3),
   (5,	'Solar Panel',	30,	3000.25,	4);
-*/
+
 
 
 SELECT p.name, c.name FROM products AS p, categories AS c 
 	WHERE p.id_categories = c.id AND c.id IN (1, 2, 3, 6, 9) 
-	AND p.amount > 100 ORDER BY c.id ASC;
+	AND p.amount > 100 ORDER BY c.id;
