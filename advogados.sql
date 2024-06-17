@@ -3,7 +3,6 @@
 --- www.urionlinejudge.com.br
 --- Problem 2737
 
-
 CREATE TABLE lawyers(
   register INTEGER PRIMARY KEY,
   name VARCHAR(255),
@@ -17,7 +16,6 @@ CREATE TABLE lawyers(
 	(3365, 'Chelsey D. Sanders', 20),
 	(4153, 'Dorothy W. Ford', 16),
 	(5525, 'Penny J. Cormier', 6);
-
 
 
 SELECT name, customers_number FROM (
