@@ -9,7 +9,7 @@
           <option name="dbmsName" value="POSTGRES" />
           <option name="urls">
             <array>
-              <option value="file://$PROJECT_DIR$/../../GeekUniversity/secao10/07-pratica-sql-secao04-dql.sql" />
+              <option value="file://$PROJECT_DIR$/../../GeekUniversity/secao10/08-pratica-sql-secao04-dml.sql" />
             </array>
           </option>
           <option name="outLayout" value="File per object by schema.groovy" />
