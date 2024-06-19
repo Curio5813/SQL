@@ -2,9 +2,11 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/../../GeekUniversity/secao10/08-pratica-sql-secao04-dml.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/../../GeekUniversity/secao10/09-pratica-sql-secao04-ddl.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/advogados.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/categorias.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/categorias_com_varios_produtos.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/cpf_dos_empregados.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
