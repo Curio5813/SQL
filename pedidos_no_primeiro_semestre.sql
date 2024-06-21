@@ -3,7 +3,7 @@
 --- www.urionlinejudge.com.br
 --- Problem 2620
 
-/*
+
 CREATE TABLE customers (
   id numeric PRIMARY KEY,
   name varchar(255),
@@ -37,7 +37,7 @@ VALUES
   (4,	'07/09/2016',	4),
   (5,	'13/02/2016',	6),
   (6,	'05/08/2016',	3);
-*/
+
 
 
 SELECT c.name, o.id FROM customers AS c, orders AS o WHERE o.id_customers = c.id AND o.orders_date BETWEEN '2016-01-01' AND '2016-06-30';
