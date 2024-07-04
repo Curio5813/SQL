@@ -2,6 +2,7 @@
 <module type="DBE_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../GeekUniversity" />
+    <content url="file://$MODULE_DIR$/../../HackerRank" />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
