@@ -3,7 +3,7 @@
 --- www.urionlinejudge.com.br
 --- Problem 2990
 
-/*
+
 CREATE TABLE empregados (
     cpf varchar(15),
     enome varchar(60),
@@ -78,7 +78,7 @@ ALTER TABLE empregados ADD CONSTRAINT fk_dnum FOREIGN KEY(dnumero)
 REFERENCES departamentos(dnumero);
 ALTER TABLE trabalha ADD CONSTRAINT fk_pnum FOREIGN KEY(pnumero)
 REFERENCES projetos(pnumero);
-*/
+
 
 SELECT empregados.cpf,empregados.enome,departamentos.dnome FROM empregados
     INNER JOIN departamentos on empregados.dnumero = departamentos.dnumero

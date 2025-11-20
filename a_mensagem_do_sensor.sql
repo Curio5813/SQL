@@ -3,7 +3,6 @@
 --- www.urionlinejudge.com.br
 --- Problem 2995
 
-/*
 CREATE TABLE records (
 id integer PRIMARY KEY,
 temperature integer,
@@ -28,7 +27,6 @@ insert into records (id,temperature,mark) values
 (13,33,5),
 (14,33,5),
 (15,33,5);
-*/
 
 SELECT temperature, count(records.temperature)
     AS number_of_records FROM records GROUP BY mark, temperature ORDER BY mark;
